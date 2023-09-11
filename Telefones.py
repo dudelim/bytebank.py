@@ -7,6 +7,7 @@ class Telefones:
     else:
       raise ValueError("Número inválido!")
 
+  #Valida o telefone (Fixo/Celular/Área/DDD)
   def valida_telefone(self, telefone):
     padrao = "([0-9]{2,3})?([0-9]{2})([0-9]{4,5})([0-9]{4})"
     resposta = re.findall(padrao, telefone)
@@ -15,6 +16,7 @@ class Telefones:
     else:
       return False
 
+  #Formata o telefone
   def format_numero(self):
     padrao = "([0-9]{2,3})?([0-9]{2})([0-9]{4,5})([0-9]{4})"
     resposta = re.search(padrao, self.numero)
