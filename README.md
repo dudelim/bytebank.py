@@ -13,4 +13,4 @@ Código feito em Python Orientado a Objetos para atender as solicitações de co
 - A formatação **_strftime__** e alguns métodos são utilizados para mostrar os dias da semana e os meses do ano dentro dos padrões nacionais.
   
 ## CEP
-- A Classe **_BuscaEndereco_* é responsável por formatar e validar o CEP, além de acessar  uma API ou WebService _online_ em tempo real que enviará o CEP e receberá uma informação serializada do endereço do usuário, contendo informações de ruas, bairros, estados e outros.
+- A Classe **_BuscaEndereco_** é responsável por formatar e validar o CEP, além de acessar  uma API ou WebService _online_ em tempo real que enviará o CEP e receberá uma informação serializada do endereço do usuário, contendo informações de ruas, bairros, estados e outros.
